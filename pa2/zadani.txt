@@ -1,0 +1,70 @@
+________________________________________________________________________________________________________________________
+                                            Zadanie z progtestu:
+
+                                                 Kalendář
+Tato semestrální práce patří do kategorie interaktivních aplikací. Vaším cílem je vytvořit aplikaci, kterou bude
+uživatel interaktivně ovládat (např. pomocí příkazů na standardním vstupu). Případné parametry aplikace se nesnažte
+definovat přímo v kódu (a to ani pomocí konstant). Umístěte je do konfiguračních souborů (jednoho nebo více),
+které váš program bude načítat.
+
+Vaším cílem je implementovat aplikaci pro správu kalendářů a událostí v nich.
+
+Implementujte následující funcionality:
+
+    - Kalendář musí zobrazovat alespoň denní, týdenní a měsíční přehled událostí.
+    - U událostí chceme evidovat alespoň následující informace: název události, datum a čas, trvání, místo,
+        účastníky, tagy a textovou poznámku. V rámci své implementace můžete přidat další zajímavé atributy
+        (př. účast: povinná, přesunutelná, volitelná, …).
+    - Události mohou být jednorázové nebo opakující se. Umožněte definovat frekvenci opakování alespoň na úrovni dní.
+    - Kalendář musí umožnit vyhledávat události podle jednotlivých atributů a to včetně kombinací obsahující spojky
+        "a zároveň" a "nebo" (př. události před 23.1.2022 a zároveń v Praze, …).
+    - Umožněte exportování a importování událostí. Exportovat lze i výběr definovaný vyhledáváním.
+    - Kalendář nesmí umožnit kolizi, v případě kolize musí umožnit najít nejbližší volný termín nebo přesunout událost
+        (je-li to možné). Alternativně můžete povolit max. počet kolizí (př. 24 kolizí pro učebnu,
+        podle počtu studentů, které v ní mohou být, …), nelze však kolize ignorovat.
+
+Kde lze využít polymorfismus? (doporučené)
+    - zobrazení kalendáře: denní, týdenní, měsíční, …
+    - strategie řešení kolizí: nalezení nejbližšího možného termínu, přesun max. X jiných událostí na volné sloty, …
+    - formáty exportovaných událostí: proprietární, iCalendar, CSV, …
+    - uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), …
+    - druhy událostí (předem si rozmyslete, zda ve vašem případě se jedná o polymorfismus)
+
+
+________________________________________________________________________________________________________________________
+                                            Môj Polymorfizmus
+//----------------------Formát------------------------//
+<abstraktná trieda>
+- <polymorfné triedy (potomci tejto abstraktnej triedy)>
+//----------------------------------------------------//
+
+BaseEvent                 # vlastný export a import pre každú udalosť
+- SingleEvent
+- RecurringEvent
+
+BaseView
+- CalendarViewController
+- EditView                # vytváranie a editovanie udalostí
+- IOView                  # import a export udalostí
+- MainMenuView            # hlavné menu
+
+BaseCalendarView
+- DailyView
+- WeeklyView
+- MonthlyView
+________________________________________________________________________________________________________________________
+                                          Doplnenie Špecifikácie
+
+Moja semestrálna práca bude spĺňať minimálne požiavky uvedené vyššie. Tu uvádzam doplnenie špecifikácie:
+
+Lookup
++- vector<BaseEvent*> search(string prompt) # logické spojky "AND" a "OR" vždy oddelené s whitespace
+
+Frekvencia opakovania bude na úrovni dní.
+V prípade kolízie bude uživateľ varovaný a bude mu umožnené presunutie udalosti na iný čas.
+Interagovať s kalendárom sa bude cez terminál za použitia knihovny ncurses.h, menu.h a form.h.
+
+Pre podrobný prehľad štruktúry inheritencie stačí spustiť "make doc" a otvoriť súbor "./doc/html/index.html".
+
+Aplikácia by sa mala používať vo full-screen móde terminálu.
+________________________________________________________________________________________________________________________

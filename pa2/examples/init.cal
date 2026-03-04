@@ -1,0 +1,154 @@
+SingleEvent
+PA2 semestral
+Make sure there are no bugs in your code!
+DIST-18101-1
+05.06.2023 09:00
+05.06.2023 18:00
+semestral,pa2,c++
+krausri1,teacher
+
+SingleEvent
+MA1 exam
+ratio test for functions go BRRR
+T9:349
+14.06.2023 08:30
+14.06.2023 09:30
+ma1,math,exam
+krausri1,kalvotom,L'H
+
+SingleEvent
+Lunch
+bring money
+KFC
+14.06.2023 10:30
+14.06.2023 12:00
+food,lunch,fastfood,restaurant
+mike,steve
+
+SingleEvent
+Commute home
+idk just get on the bus
+MHD
+14.06.2023 12:30
+14.06.2023 12:50
+some, more, tags
+mike,steve
+
+SingleEvent
+Study
+for LA2 exam
+SH
+14.06.2023 13:00
+14.06.2023 14:00
+some, more, tags
+mike,steve
+
+SingleEvent
+Study for LA2
+did u think we were done?
+SH
+14.06.2023 14:00
+14.06.2023 15:00
+some, more, tags
+mike,steve
+
+SingleEvent
+more Study for LA2
+the sole purpose of this event is to test the event list tbh
+SH
+14.06.2023 16:00
+14.06.2023 17:00
+some, more, tags
+mike,steve
+
+SingleEvent
+more more Study for LA2
+but you've realized that by now
+SH
+14.06.2023 17:00
+14.06.2023 18:00
+some, more, tags
+mike,steve
+
+SingleEvent
+more more Study for LA2
+u still there?
+SH
+14.06.2023 18:00
+14.06.2023 19:00
+some, more, tags
+mike,steve
+
+SingleEvent
+Break
+that's some dedication
+SH
+14.06.2023 19:00
+14.06.2023 20:00
+some, more, tags
+mike,steve
+
+SingleEvent
+shower
+running out of ideas
+SH
+14.06.2023 20:00
+14.06.2023 21:00
+some, more, tags
+me
+
+SingleEvent
+brush teeth
+yeah this is getting ridiculous
+SH
+14.06.2023 21:00
+14.06.2023 22:00
+some, more, tags
+me
+
+SingleEvent
+go to bed
+...
+SH
+14.06.2023 22:00
+14.06.2023 23:00
+some, more, tags
+me
+
+SingleEvent
+sleep
+or maybe not :(
+SH
+14.06.2023 23:00
+14.06.2023 23:58
+some, more, tags
+me
+
+SingleEvent
+LA2 exam
+TODO: givens rotation
+T9:105
+19.06.2023 08:35
+19.06.2023 10:35
+la2,math,exam
+krausri1,kleprlud
+
+SingleEvent
+PA2 exam
+requires finished semestral
+T9:349
+08.06.2023 09:00
+08.06.2023 15:00
+c++,progtest
+krausri1,vagner
+
+RecurringEvent
+Discgolf
+bring discs
+Ladronka
+04.06.2023 13:00
+04.06.2023 15:00
+disc,golf
+friends
+604800
+10
