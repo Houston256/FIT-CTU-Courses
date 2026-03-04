@@ -1,0 +1,12 @@
+results/
+data/
+main/
+build/
+.env
+.venv/
+.jbeval/
+__marimo__/
+
+*.aux
+*.log
+*.out

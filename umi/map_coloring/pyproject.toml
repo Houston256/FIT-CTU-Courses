@@ -1,0 +1,14 @@
+[project]
+name = "map-coloring"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "rich>=14.2.0",
+    "ruff>=0.14.10",
+]
+
+[tool.ruff]
+line-length = 320

@@ -1,0 +1,17 @@
+IF (perimeter_mean <= 99.02) & (radius_worst <= 16.815) & (compactness_se <= 0.116) & (symmetry_worst > 0.161) & (compactness_worst <= 0.428) & (symmetry_worst > 0.198) THEN class M
+IF (compactness_mean > 0.102) & (perimeter_mean > 84.855) & (concave points_worst > 0.142) & (radius_mean <= 14.34) & (radius_mean <= 14.255) THEN class B
+IF (perimeter_worst > 106.05) & (smoothness_worst <= 0.124) & (radius_se <= 0.439) & (radius_worst <= 18.445) & (concavity_se <= 0.043) THEN class M
+IF (concave points_worst <= 0.142) & (radius_se <= 0.548) & (perimeter_worst <= 117.45) & (area_worst <= 727.1) & (area_worst <= 650.95) THEN class M
+IF (concavity_mean > 0.082) & (concave points_worst > 0.135) & (area_se > 14.18) & (texture_worst > 19.825) THEN class B
+IF (radius_mean <= 15.11) & (concave points_worst <= 0.149) & (fractal_dimension_worst > 0.057) & (area_se <= 41.49) & (symmetry_worst <= 0.347) & (texture_worst <= 39.075) THEN class M
+IF (radius_worst > 16.795) & (texture_worst > 19.745) THEN class B
+IF (concavity_worst <= 0.262) & (perimeter_worst <= 127.2) & (radius_se <= 0.626) & (concavity_worst <= 0.208) THEN class M
+IF (area_worst > 865.65) & (fractal_dimension_se > 0.002) & (texture_mean > 15.015) & (perimeter_se > 1.374) THEN class B
+IF (concavity_mean > 0.093) & (concave points_worst > 0.136) & (radius_worst > 12.6) THEN class B
+IF (perimeter_worst <= 115.35) & (concave points_worst <= 0.156) & (texture_worst <= 27.98) & (perimeter_se <= 6.54) & (area_mean <= 707.75) & (symmetry_worst > 0.198) THEN class M
+IF (radius_worst <= 16.805) & (smoothness_worst > 0.177) & (radius_mean > 10.313) & (fractal_dimension_worst > 0.094) THEN class B
+IF (concavity_worst <= 0.215) & (compactness_se <= 0.011) & (area_se > 40.38) & (texture_worst > 20.905) THEN class B
+IF (perimeter_mean > 99.79) & (concavity_worst > 0.191) & (texture_mean > 14.98) THEN class B
+IF (perimeter_worst <= 115.35) & (concavity_mean > 0.098) & (fractal_dimension_se <= 0.008) & (perimeter_mean > 95.08) & (concavity_mean > 0.101) THEN class M
+IF (concavity_worst <= 0.262) & (perimeter_worst <= 127.2) & (radius_se <= 0.626) & (concavity_worst <= 0.208) THEN class M
+IF (concave points_mean > 0.052) & (perimeter_worst <= 114.45) & (texture_worst > 23.74) & (concave points_se <= 0.019) & (concavity_worst > 0.319) THEN class B

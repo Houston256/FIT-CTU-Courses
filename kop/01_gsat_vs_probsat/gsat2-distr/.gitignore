@@ -1,0 +1,6 @@
+*.o
+*.log
+gsat2
+rngstart
+rngstub
+*.log
